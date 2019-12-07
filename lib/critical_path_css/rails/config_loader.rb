@@ -29,7 +29,7 @@ module CriticalPathCss
       end
 
       def format_path(path)
-        "#{::Rails.root}/public#{path}"
+        "#{::Rails.root}/#{path}"
       end
 
       def validate_css_paths
